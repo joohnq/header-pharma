@@ -29,27 +29,12 @@
 
   <body class="mx-auto" style="max-width: 1200px">
     <header>
-      <nav class="navbar navbar-expand-lg">
+      <nav class="navbar navbar-expand-sm">
         <div class="container-fluid">
-          <a
-            class="navbar-brand text-center"
-            href="#"
-            style="width: 150px; height: 100px"
-            >LOGO
-          </a>
-          <button
-            class="navbar-toggler"
-            type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#navbarNav"
-            aria-controls="navbarNav"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-          >
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav d-flex align-items-center">
+            <img class="me-1" src="images/logo.jpeg" alt="Logo The Pharma"
+          /></a>
+          <div class="collapse navbar-collapse d-flex justify-content-between" id="navbarNav">
+            <ul class="navbar-nav nav-topics d-flex align-items-center list-unstyled">
               <li class="nav-item">
                 <a class="nav-link active" aria-current="page" href="#"
                   >home ></a
@@ -63,96 +48,218 @@
                   >lista de medicamentos ></a
                 >
               </li>
-              <li class="nav-item me-3">
+              <li class="nav-item">
                 <a class="nav-link text-blue-light" href="#">fale conosco ></a>
               </li>
-              <li class="nav-item d-flex align-items-center gap-4">
-                  <div class="ballon d-inline-block border-0 position-relative">
-                    <a
-                      class="d-flex flex-column bg-purple text-light text-decoration-none  py-1 px-3 rounded rounded-4 lh-1"
-                      href="#"
+            </ul>
+            <ul class="nav-item nav-infos d-flex align-items-center list-unstyled">
+                <li class="ballon d-inline-block border-0 position-relative me-4">
+                  <a
+                    class="d-flex flex-column bg-purple text-light text-decoration-none py-2 px-2 rounded rounded-4 lh-1"
+                    href="#"
+                  >
+                    <div class="big-font text-center">clique aqui</div>
+                    <div class="small-font text-center">e entraremos</div>
+                    <div class="big-font text-center">em contato!</div>
+                  </a>
+                </li>
+                <li class="contact me-4">
+                  <p class="text-purple m-1 text-center">0800 777 7366</p>
+                  <p class="text-purple m-1 text-center">
+                    <!-- ABAIXO SEGUE O LINK, CASO PRECISE MUDAR A COR -->
+                    <!--https://www.iconfinder.com/icons/8665646/phone_communication_icon-->
+                    <img
+                      class="icon-width-18"
+                      src="images/phone.svg"
+                      alt="Phone Icon"
+                    />
+                    11 3871-2475
+                  </p>
+                  <p class="text-purple m-1 text-center">
+                    <img
+                      class="icon-width-18"
+                      src="images/whatsapp.svg"
+                      alt="Whatsapp icon"
+                    />
+                    11 9611-1004
+                  </p>
+                </li>
+                <li class="social-media d-flex flex-column gap-2">
+                  <div
+                    class="d-flex align-items-center justify-content-center gap-2"
+                  >
+                    <!-- https://www.iconfinder.com/icons/3844432/magnifier_search_zoom_icon-->
+                    <img
+                      class="icon-width-24 me-1"
+                      src="images/search.svg"
+                      alt="Search Icon"
+                    />
+                    <span class="bg-purple text-light px-1 icon-language"
+                      >PT</span
                     >
-                      <div class="big-font text-center mb-1">clique aqui</div>
-                      <div class="small-font text-center">e entraremos</div>
-                      <div class="big-font text-center">em contato!</div>
-                    </a>
-                    </div>
-                  <div class="contact">
-                    <p class="text-purple m-1 text-center">0800 777 7366</p>
-                    <p class="text-purple m-1 text-center">
-                        <!-- ABAIXO SEGUE O LINK, CASO PRECISE MUDAR A COR -->
-                        <!--https://www.iconfinder.com/icons/8665646/phone_communication_icon-->
-                      <img class="icon-width-18" src="images/phone.svg" alt="Phone Icon">
-                      11 3871-2475
-                    </p>
-                    <p class="text-purple m-1 text-center">
-                        <img class="icon-width-18" src="images/whatsapp.svg" alt="Whatsapp icon">
-                        11 9611-1004
-                      </p>
+                    <span class="bg-purple text-light px-1 icon-language"
+                      >IN</span
+                    >
+                    <span class="bg-purple text-light px-1 icon-language"
+                      >ES</span
+                    >
                   </div>
-                  <div class="social-media d-flex flex-column gap-2">
-                    <div class="d-flex align-items-center justify-content-center gap-2">
-                        <!-- https://www.iconfinder.com/icons/3844432/magnifier_search_zoom_icon-->
-                        <img class="icon-width-24 me-1" src="images/search.svg" alt="Search Icon">
-                        <span class="bg-purple text-light px-1 icon-language">PT</span>
-                        <span class="bg-purple text-light px-1 icon-language">IN</span>
-                        <span class="bg-purple text-light px-1 icon-language">ES</span>
-                    </div>
-                    <div class="d-flex align-items-center justify-content-center gap-1">
-                        <!--https://www.iconfinder.com/icons/367593/linkedin_business_network_social_icon-->
-                        <img class="icon-width-24" src="images/linkedin.svg" alt="Linkedin">
-                        <!--https://www.iconfinder.com/icons/104498/facebook_icon-->
-                        <img class="icon-width-24 me-1" src="images/facebook.svg" alt="Facebook Icon">
-                        <!--https://www.iconfinder.com/icons/317738/instagram_photography_photos_icon-->
-                        <img class="icon-width-24 me-2" src="images/instagram.svg" alt="Instagram Icon">
-                        
-                        <img class="icon-width-24" src="images/whatsapp.svg" alt="Whatsapp Icon">
-                    </div>
+                  <div
+                    class="d-flex align-items-center justify-content-center gap-1"
+                  >
+                    <!--https://www.iconfinder.com/icons/367593/linkedin_business_network_social_icon-->
+                    <img
+                      class="icon-width-24"
+                      src="images/linkedin.svg"
+                      alt="Linkedin"
+                    />
+                    <!--https://www.iconfinder.com/icons/104498/facebook_icon-->
+                    <img
+                      class="icon-width-24 me-1"
+                      src="images/facebook.svg"
+                      alt="Facebook Icon"
+                    />
+                    <!--https://www.iconfinder.com/icons/317738/instagram_photography_photos_icon-->
+                    <img
+                      class="icon-width-24 me-2"
+                      src="images/instagram.svg"
+                      alt="Instagram Icon"
+                    />
+
+                    <img
+                      class="icon-width-24"
+                      src="images/whatsapp.svg"
+                      alt="Whatsapp Icon"
+                    />
                   </div>
-              </li>
+                </li>
             </ul>
           </div>
+          <input type="checkbox" id="menu-hamburguer">
+            <label for="menu-hamburguer">
+        <div class="menu" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasScrolling" aria-controls="offcanvasScrolling">
+            <span class="hamburguer"></span>
+        </div>
+            </label>
         </div>
       </nav>
-
-      <!-- <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample" aria-controls="offcanvasExample">
-        Button with data-bs-target
-    </button> -->
-
       <div
-        class="offcanvas offcanvas-start"
-        tabindex="-1"
-        id="offcanvasExample"
-        aria-labelledby="offcanvasExampleLabel"
+      class="offcanvas offcanvas-start" data-bs-scroll="true" data-bs-backdrop="false" tabindex="-1" id="offcanvasScrolling" aria-labelledby="offcanvasScrollingLabel"
       >
         <div class="offcanvas-header">
-          <h5 class="offcanvas-title" id="offcanvasExampleLabel">Offcanvas</h5>
-          <button
-            type="button"
-            class="btn-close"
-            data-bs-dismiss="offcanvas"
-            aria-label="Close"
-          ></button>
-        </div>
-        <div class="offcanvas-body">
-          <div>
-            Some text as placeholder. In real life you can have the elements you
-            have chosen. Like, text, images, lists, etc.
-          </div>
-          <div class="dropdown mt-3">
-            <button
-              class="btn btn-secondary dropdown-toggle"
-              type="button"
-              data-bs-toggle="dropdown"
+          <img src="images/logo.jpeg" alt="Logo The Pharma">
+          <li class="ballon d-inline-block border-0 position-relative">
+            <a
+              class="d-flex flex-column bg-purple text-light text-decoration-none py-2 px-2 rounded rounded-4 lh-1"
+              href="#"
             >
-              Dropdown button
-            </button>
-            <ul class="dropdown-menu">
-              <li><a class="dropdown-item" href="#">Action</a></li>
-              <li><a class="dropdown-item" href="#">Another action</a></li>
-              <li><a class="dropdown-item" href="#">Something else here</a></li>
+              <div class="big-font text-center">clique aqui</div>
+              <div class="small-font text-center">e entraremos</div>
+              <div class="big-font text-center">em contato!</div>
+            </a>
+          </li>
+        </div>
+        <hr>
+        <div class="offcanvas-body">
+            <nav class="navbar">
+                <div class="container-fluid">
+                  <div class="collapse navbar-collapse d-flex flex-column" id="navbarNav">
+                    <ul class="navbar-nav d-flex align-items-center list-unstyled">
+                      <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#"
+                          >home ></a
+                        >
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link text-blue-light" href="#">RDC ></a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link text-blue-light" href="#"
+                          >lista de medicamentos ></a
+                        >
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link text-blue-light" href="#">fale conosco ></a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+            </nav>
+        </div>
+        <hr>
+        <div class="offcanvas-footer">
+            <ul class="nav-item nav-infos-mobile d-flex flex-row align-items-center  justify-content-around list-unstyled">
+                <li class="contact">
+                  <p class="text-purple m-1 text-center">0800 777 7366</p>
+                  <p class="text-purple m-1 text-center">
+                    <!-- ABAIXO SEGUE O LINK, CASO PRECISE MUDAR A COR -->
+                    <!--https://www.iconfinder.com/icons/8665646/phone_communication_icon-->
+                    <img
+                      class="icon-width-18"
+                      src="images/phone.svg"
+                      alt="Phone Icon"
+                    />
+                    11 3871-2475
+                  </p>
+                  <p class="text-purple m-1 text-center">
+                    <img
+                      class="icon-width-18"
+                      src="images/whatsapp.svg"
+                      alt="Whatsapp icon"
+                    />
+                    11 9611-1004
+                  </p>
+                </li>
+                <li class="social-media d-flex flex-column gap-2">
+                  <div
+                    class="d-flex align-items-center justify-content-center gap-2"
+                  >
+                    <!-- https://www.iconfinder.com/icons/3844432/magnifier_search_zoom_icon-->
+                    <img
+                      class="icon-width-24 me-1"
+                      src="images/search.svg"
+                      alt="Search Icon"
+                    />
+                    <span class="bg-purple text-light px-1 icon-language"
+                      >PT</span
+                    >
+                    <span class="bg-purple text-light px-1 icon-language"
+                      >IN</span
+                    >
+                    <span class="bg-purple text-light px-1 icon-language"
+                      >ES</span
+                    >
+                  </div>
+                  <div
+                    class="d-flex align-items-center justify-content-center gap-1"
+                  >
+                    <!--https://www.iconfinder.com/icons/367593/linkedin_business_network_social_icon-->
+                    <img
+                      class="icon-width-24"
+                      src="images/linkedin.svg"
+                      alt="Linkedin"
+                    />
+                    <!--https://www.iconfinder.com/icons/104498/facebook_icon-->
+                    <img
+                      class="icon-width-24 me-1"
+                      src="images/facebook.svg"
+                      alt="Facebook Icon"
+                    />
+                    <!--https://www.iconfinder.com/icons/317738/instagram_photography_photos_icon-->
+                    <img
+                      class="icon-width-24 me-2"
+                      src="images/instagram.svg"
+                      alt="Instagram Icon"
+                    />
+
+                    <img
+                      class="icon-width-24"
+                      src="images/whatsapp.svg"
+                      alt="Whatsapp Icon"
+                    />
+                  </div>
+                </li>
             </ul>
-          </div>
         </div>
       </div>
     </header>
